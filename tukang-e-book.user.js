@@ -13,7 +13,6 @@
 // @include		 			https://books.google.*
 // @include		 			https://www.google.com/books/*
 // @include     		https://books.google.*/books
-// @require		 			https://raw.githubusercontent.com/Stuk/jszip/master/dist/jszip.js
 // @require      		https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @require      		http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
 // @require      		https://raw.githubusercontent.com/eligrey/FileSaver.js/master/dist/FileSaver.min.js
@@ -57,25 +56,6 @@ function addStyleSheet(style){
 }
 
 addStyleSheet('@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";');
-
-var zip = new JSZip();
-
-function DownloadPage(url, name) {
-  var filename = name + '.png';
-  GM_xmlhttpRequest({
-    method: 'GET',
-    synchronous: true,
-    url: url,
-    overrideMimeType: 'image/png; charset=x-user-defined',
-    onload: function (response) {
-      zip.file(filename, response.responseText, {
-        binary: true
-      });
-    }
-  });
-}
-
-
 
 var items = [];
 var dllinks;
