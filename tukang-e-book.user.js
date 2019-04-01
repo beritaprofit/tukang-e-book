@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Tukang Download Google Books Preview
-// @namespace    beritaprofit
+// @namespace    https://github.com/beritaprofit/tukang-e-book/edit/master/tukang-e-book.user.js      
 // @version      0.3.1
 // @description  try to take over the books!
 // @author       beritaprofit
