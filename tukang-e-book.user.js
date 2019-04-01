@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Tukang Download Google Books Preview
 // @namespace    beritaprofit
-// @version      0.3
+// @version      0.3.1
 // @description  try to take over the books!
 // @author       beritaprofit
 // @include		 https://books.google.*
