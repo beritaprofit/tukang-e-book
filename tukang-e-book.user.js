@@ -4,12 +4,12 @@
 // @version      0.3.1
 // @description  try to take over the books!
 // @author       beritaprofit
-// @license https://creativecommons.org/licenses/by-sa/4.0/
-// @homepage https://github.com/beritaprofit/tukang-e-book
-// @supportURL https://github.com/beritaprofit/tukang-e-book/issues
+// @license     https://creativecommons.org/licenses/by-sa/4.0/
+// @homepage    https://github.com/beritaprofit/tukang-e-book
+// @supportURL  https://github.com/beritaprofit/tukang-e-book/issues
 // @contributionURL https://github.com/beritaprofit/tukang-e-book#donate
-// @updateURL https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
-// @downloadURL https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer.user.js
+// @updateURL   https://github.com/beritaprofit/tukang-e-book/raw/master/tukang-e-book.user.js
+// @downloadURL    https://github.com/beritaprofit/tukang-e-book/raw/master/tukang-e-book.user.js
 // @include		 https://books.google.*
 // @include		 https://www.google.com/books/*
 // @include      https://books.google.*/books
