@@ -127,7 +127,7 @@ function generateDownloadButton (jNode) {
         }, true );
 
         var button3 = document.createElement("Button");
-        var name = numstring[0]+ pad(numstring[1], 4);
+        name = numstring[0]+ pad(numstring[1], 4);
 
         button3.innerHTML = '<i class="fa fa-download"></i>';
         //button3.innerHTML = numstring[0]+ pad(numstring[1], 4);;
